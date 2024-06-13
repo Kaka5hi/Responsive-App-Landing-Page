@@ -1,8 +1,30 @@
-# React + Vite
+# Responsive App Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple landing page which is designed using React and CSS.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/Kaka5hi/Responsive-App-Landing-Page.git
+    ```
+2. **Navigate to Project Directory**:
+3. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+4. **Run the Application**:
+    ```bash
+    npm run dev
+    ```
+
+This command will start the development server.
+
+## Technolog Used
+
+-   **React**: JavaScript library for building user interfaces.
+-   **CSS**: Styling the UI.
+
+## Live project link
+
+-   Project is hosted on netlify which you can check <a href="https://uifry-landingpage-sm.netlify.app/">here</a>

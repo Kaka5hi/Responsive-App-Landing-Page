@@ -1,0 +1,117 @@
+.features-section {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.features-section-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.features-section-left > img {
+    width: 720px;
+    height: 720px;
+    object-fit: contain;
+}
+
+.features-section-right {
+    position: relative;
+    flex: 1;
+}
+
+.features-section-right > span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff5555;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.features-section-right > h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 4px;
+}
+
+.features-container {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.single-feature > h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.single-feature > p {
+    margin-top: 12px;
+    max-width: 638px;
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+}
+
+.features-section-right > img {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: -1;
+    width: 300px;
+    height: 270px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .features-section {
+        margin-top: 50px;
+    }
+    .features-section-left > img {
+        width: 500px;
+        height: 500px;
+    }
+    .features-section-right {
+        padding-right: 20px;
+    }
+
+    .features-section-right > h1 {
+        font-size: 40px;
+    }
+
+    .features-section-right > img {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .features-section {
+        flex-direction: column-reverse;
+        padding: 20px;
+        margin-top: 20px;
+        gap: 40px;
+    }
+
+    .features-section-right {
+        padding: 0;
+        margin: auto;
+    }
+
+    .features-section-right > h1 {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .features-section-left > img {
+        width: 400px;
+        height: 400px;
+    }
+}

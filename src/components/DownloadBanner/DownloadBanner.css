@@ -1,0 +1,107 @@
+.download-banner-section {
+    margin-top: 150px;
+    max-width: 1090px;
+    margin-inline: auto;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding-left: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.download-banner-section > img {
+    position: absolute;
+    left: -20%;
+    top: -40%;
+    z-index: -1;
+}
+
+.download-banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.download-banner-content > h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.download-banner-content > p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.download-banner-content > button {
+    width: 210px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.download-banner-content > button:hover {
+    cursor: pointer;
+}
+
+.download-banner-image > img {
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 1100px) {
+    .download-banner-section {
+        margin: 100px 20px 0;
+    }
+
+    .download-banner-content > h1 {
+        font-size: 42px;
+    }
+
+    .download-banner-section > img {
+        left: 0;
+        top: -20%;
+    }
+    .download-banner-image {
+        width: 400px;
+    }
+
+    .download-banner-image > img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .download-banner-content > h1 {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .download-banner-section {
+        margin: 100px 20px 50px;
+        padding: 20px;
+    }
+
+    .download-banner-content {
+        padding: 0;
+    }
+    .download-banner-image {
+        display: none;
+    }
+    .download-banner-section > img {
+        display: none;
+    }
+}
